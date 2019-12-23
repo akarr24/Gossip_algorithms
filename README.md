@@ -1,12 +1,12 @@
 # Gossip_algorithms
-##Instructions to run the program
+## Instructions to run the program
 Run the command- mix escript.build
 After building, run the program by executing escript my_program numNodes topology algorithm.
 5. For example – escript my_program 100 full gossip
 6. The program will execute.
 Note: If the topologies don’t converge, terminate the program by pressing ctrl + c, and re-execute the program.
 
-##What is working:
+## What is working:
 Topologies:
 1. Full: Every node is neighbor to every other node.
 2. Line: Nodes form a queue. Each node has two neighbors except for the first and the last node.
