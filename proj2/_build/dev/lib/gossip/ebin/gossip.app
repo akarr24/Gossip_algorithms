@@ -1,0 +1,9 @@
+{application,gossip,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"gossip"},
+              {modules,['Elixir.Proj2.Driver','Elixir.Proj2.Node',
+                        'Elixir.Proj2.NodeSupervisor',
+                        'Elixir.Proj2.PushSumNode','Elixir.Proj2.Runner',
+                        'Elixir.Proj2.Topology']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
